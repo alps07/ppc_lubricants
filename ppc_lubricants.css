@@ -33,10 +33,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f2fa', end
 	vertical-align: top;
 	margin-left: 650px;
 	display: inline-block;
-	/*padding-top:32px;
-	margin-top: 5px;*/
-
 }
+
 #straight-line{
 	border: 1px solid grey;
 	border-collapse: collapse;
@@ -52,7 +50,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f2fa', end
 	list-style: none;
 	display: inline-block;
 	padding: 3px 30px;
-	border-right: .5px solid #E6E6E6;
+	border-right: 1px solid #E6E6E6;
 	font-size: 10px;
 }
 
@@ -73,7 +71,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f2fa', end
 	display: inline-block;
 	width: 510px;
 	vertical-align: top;
-	padding-bottom: 4px;
+	padding-bottom: 21px;
 	margin: 5px 5px 0;
 	background-color: #6a6a68;	
 }
@@ -116,14 +114,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6a6a68', end
 	font-weight: bold;
 }
 
-
 #main_content{
 	width:970px;
-	height: 170px;
 	background-color:black;
+	height: 300px;
 }
 
-#main_content img{
+#small_logo_and_text{
+	width:970px;
+}
+
+#small_logo {
 	width: 50px;
 	display: inline-block;
 	padding: 5px 10px;
@@ -134,7 +135,47 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6a6a68', end
 	width: 380px;
 	height: 15px;
 	vertical-align: top;
-	padding-top: 4px;
+	padding-top: 6px;
 	color: rgba(140, 140, 38, 1);
 	font-size: 8px;
+}
+
+.multiple_pics{
+	width: 228px;
+	background-color: white;
+	display:inline-block;	
+	margin-left:9px;
+	height: 235px;
+	vertical-align: top;
+}
+
+.h4_property{
+	height: 15px;
+	width: 218px;
+	background-color: yellow;
+	font-size: 9px;
+	padding:0 5px;
+}
+
+.main_images{
+	height: 110px;
+	width: 228px;
+}
+
+.main_paragraph{
+	width: 220px;
+	padding: 5px;
+	font-size: 9px;
+	height: 40px;
+}
+
+.read_more{
+	width: 100px;
+	background-color: yellow;
+	margin-top: 10px;
+	margin-left: 105px;
+	vertical-align: bottom;
+	border-radius: 0 50px 50px 0;
+	border-color: black;
+	padding:5px;
 }
